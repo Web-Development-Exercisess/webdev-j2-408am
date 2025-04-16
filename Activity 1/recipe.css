@@ -1,0 +1,77 @@
+body { /*added this to change the background color of the page*/
+    background-image: url("https://i.pinimg.com/736x/c7/59/f7/c759f7e66553a8e7345de740421a35d9.jpg");
+}
+
+
+img { /*For the images to be in the middle*/
+    display: block;
+    margin: auto;
+    width: 75%;
+}
+
+.food {
+    display: block;
+    max-width: auto;
+    width: 75;
+}
+
+#name { /*To customize the recipe name*/
+    font-family: youngserif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#main { /*Used to target specific element*/
+    font-size: 20px;
+    text-align: center;
+    font-family: outfit;
+    color: rgb(0, 0, 0);
+}
+
+.content { 
+    height: 3100px; /* To fit all content inside the box */
+    width: 1200px;
+    margin: auto;
+    background: linear-gradient(rgb(255, 255, 255)); /*background-color of the box*/
+    padding-top: 50px;
+    font-family: outfit; /*Font derived from google fonts*/
+    color: rgb(107, 21, 21);
+    /*Gives text enough space from the border*/
+    padding-left: 50px; 
+    padding-right: 50px;
+}
+
+li {
+    font-size: 20px;
+    color: black;
+}
+
+ul {
+    font-size: 20px;
+    color: rgb(107, 21, 21);
+}
+
+#note {
+    font-size: 20px;
+    color: black;
+}
+
+#ref {
+    text-align: center;
+    font-size: 15px;
+}
+
+#tuna {
+    text-align: center;
+    font-size: 15px;
+}
+
+#step {
+    text-align: center;
+    font-size: 15px;
+}
+
+.linee { /*Adds border at the top and bottom for division*/
+    border-top: 1px solid hsl(30, 65%, 80%);
+    border-bottom: 1px solid hsl(30, 65%, 80%);
+}
