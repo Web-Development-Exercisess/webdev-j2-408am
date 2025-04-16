@@ -1,0 +1,139 @@
+body {
+    background-color: #fffcf8;
+}
+
+header {
+    font-family: "Dela Gothic One", sans-serif; /*Special font from Google fonts*/
+    font-style: normal;
+    color: #811515;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3pxpx;
+    height: 120px;
+    padding-top: 25px;
+    line-height: 35px; /*Changes the height between elements acc. to my liking*/
+}
+
+.menu {
+    font-family: "Cutive", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f7e3bb;
+    color: #811515;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #811515;
+    padding: 15px 32px;
+    text-align: center; 
+    text-decoration: none; /*Gets rid of the underline in the button*/
+    font-size: 25px;
+    cursor: pointer; /*Changes the style of mouse when hovered in the button*/
+}
+
+.content { 
+    font-family: "Cutive", serif;
+    font-weight: 400;
+    font-size: 23px;
+    letter-spacing: 5px; /*Gives space to each letter for a typewriter effect*/
+    padding: 50px; 
+    text-align: center;
+    outline-style: solid; /*A kind of outline style option. Solid is the straight line box design. Commonly used*/
+    outline-width: 13px; /*Outline thickness*/
+    padding-top: 10px;
+    outline-color: #811515;
+    box-sizing: border-box;
+}
+
+#txt1 {
+    text-align: left;
+    font-size: 34.8px;
+    color: #811515;
+    font-weight: 500;
+    letter-spacing: 5px;
+    line-height: 10px;
+}
+
+#ex {
+    line-height: auto;
+}
+
+.movie {
+    font-family: "Cutive", serif;
+    font-weight: 1000;
+    font-style: bold;
+    font-size: 90px;
+    letter-spacing: 5px;
+    line-height: 125px;
+}
+
+.menu2 {
+    font-family: "Cutive", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f7e3bb;
+    color: #811515;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #811515;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+    line-height: 100px;
+}
+
+.film {
+    font-family: "Cutive", serif;
+    font-weight: 1000;
+    font-style: bold;
+    font-size: 39.3px;
+    letter-spacing: 5px;
+    line-height: 60px;
+}
+
+h1 {
+    color: #811515;
+    font-style: bold;
+}
+
+.info {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 35px;
+}
+
+.direct {
+    color: #4c0303;
+    font-weight: 1000;
+    letter-spacing: 3px;
+}
+
+.key {
+    font-family: "Cutive", serif;
+    color: #811515;
+    font-weight: 400;
+    font-style: bold;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: left;
+}
+
+.word {
+    font-family: "Libre Baskerville", serif; /*Another font from Google Fonts used*/
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 35px;
+    text-align: left; /*In this case, I wanted this text to be on the left side of my page*/
+}
+
+.checked { /*To change the color of the stars in Reviews page*/
+    color: orange;
+}
+
+footer { /*For styling footer of the website*/
+    text-align: center;
+    font-size: 20px;
+}
