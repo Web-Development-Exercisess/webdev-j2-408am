@@ -2,8 +2,7 @@ header {
     font-size: 38px;
     background-color: #17072b;
     color: white;
-    margin: 0px;
-    padding: 30px;
+    padding: 30px; /* adds padding to the bottom */
     text-align: center;
     padding-top: 10px;
 }
@@ -12,7 +11,7 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-bottom: 10px solid;
     padding-bottom: 2px;
-    display: inline-block;
+    display: inline-block; /* to make items align horizontally */
 }
 
 body {
@@ -23,8 +22,7 @@ body {
 aside {
     width: 30%;
     padding-left: 55px;
-    margin-left: 15px;
-    float: right;
+    float: right; /* to place it on the right side of the screen */
     background-color: #172d67;
     color: #ffffff;
     margin: 0;
@@ -36,34 +34,23 @@ aside {
 .content {
     font-family: Arial;
     color: #000000;
-    padding-left: 45px;
+    padding-left: 45px; /* adds space between content and border on the left*/
 }
 
 .link {
     list-style: none;
     display: flex;
-    justify-content: center;
-    gap: 50px;
+    justify-content: center; /* puts the nav in the center*/
+    gap: 50px; /* adds gap between each word */
     padding: 0;
     margin: 0;
-    text-decoration: none;
     font-size: 49px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.link 
-li 
 a {
     text-decoration: none; /* removes underline */
     color: #ffffff;
-    font-weight: 500;
-}
-
-nav 
-.link
-li 
-a {
-    text-decoration: none !important;
 }
 
 #wel {
@@ -86,7 +73,7 @@ a {
 
 footer {
     background-color: #8a10ec;
-    padding: 10px 0; /* keep this small */
+    padding: 10px; /* makes footer smaller */
     text-align: center;
     color: white;
     font-size: 35px;
@@ -94,5 +81,5 @@ footer {
 }
 
 footer p {
-    margin: 0;
+    margin: 0; /* retains footer size while font size changes */
 }
