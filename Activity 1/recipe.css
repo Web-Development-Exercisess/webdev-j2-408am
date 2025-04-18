@@ -2,17 +2,13 @@ body { /*added this to change the background color of the page*/
     background-image: url("https://i.pinimg.com/736x/c7/59/f7/c759f7e66553a8e7345de740421a35d9.jpg");
 }
 
-
 img { /*For the images to be in the middle*/
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: auto;
     width: 75%;
-}
-
-.food {
-    display: block;
-    max-width: auto;
-    width: 75;
+    height: 75%;
 }
 
 #name { /*To customize the recipe name*/
@@ -29,8 +25,12 @@ img { /*For the images to be in the middle*/
 }
 
 .content { 
-    height: 3100px; /* To fit all content inside the box */
-    width: 1200px;
+    display: flex;
+    flex-direction: column; /* Default: vertical layout */
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    max-width: 1200px;
     margin: auto;
     background: linear-gradient(rgb(255, 255, 255)); /*background-color of the box*/
     padding-top: 50px;
