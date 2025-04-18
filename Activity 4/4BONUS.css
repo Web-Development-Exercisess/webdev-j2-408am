@@ -1,0 +1,125 @@
+* { 
+    box-sizing: border-box; /* Layouts the entire page*/ 
+}
+
+body {
+    font-family: Arial;
+    background: #f1f1f1;
+    margin: 0;
+}
+
+.header {
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    background: rgb(0, 24, 75);
+    color: #ffffff;
+}
+
+.header h1 {
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#int {
+    padding-top: 20px;
+    font-size: 50px;
+    padding-left: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navi {
+    overflow: hidden; /* Content will be invisible if it's too big */
+    background-color: #013fbb;
+}
+
+.navi a {
+    float: left; /* Placed on the left side of the nav bar */
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+  /* Change color on hover */
+.navi a:hover {
+    background-color: #dce9f1;
+    color: black;
+}
+
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+.plan {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #274dae;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.plan:hover {
+    background-color: #122d71;
+}
+
+.left {
+    font-size: 35px;
+}
+
+  /* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+#cal {
+    text-align: center;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cont {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* to create borders for each category */
+.card {
+    background-color: rgb(175, 214, 231); 
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+  /* Clear floats after the columns */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(0, 24, 75);
+    margin-top: 20px;
+    font-size: 15px;
+    color: #ffffff;
+}
