@@ -1,5 +1,5 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ body {
 #int {
     text-align: center;
     font-size: 30px;
-    font-family: "Dela Gothic One", sans-serif;
+    font-family: "Dela Gothic One", sans-serif; /* From Google Font */
 }
 
 h2 {
@@ -32,12 +32,8 @@ h2 {
     justify-content: center;
     background-color:#811515; 
     color:  #fffcf8;
-    padding: 1em;
-    list-style: none;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    font-family: "Cutive", serif;
+    padding: 15px;
+    font-family: "Cutive", serif; /* From Google Font */
     font-size: 20px;
 }
 
@@ -54,14 +50,14 @@ main li {
 }
 
 .nav li {
-    margin: 0 15px;
+    margin: 0 15px; /* adds a bit of space in wording*/
 }
 
 .nav a {
     color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
+    text-decoration: none; /* gets rid of underline */
+    font-weight: bold; 
+    transition: color 0.3s; /* adds a bit of effect on nav link */
 }
 
 .nav a:hover {
@@ -69,15 +65,15 @@ main li {
 }
 
 .section {
-    padding: 2em;
+    padding: 20px;
     max-width: 800px;
     margin: 0 auto;
 }
 
 .btn {
     background-color: #ffffff;
-    color: #811515 !important;
-    padding: 0.5em 1em;
+    color: #811515 !important; /* important signifies something that the code should follow */
+    padding: 5px 10px;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease;
