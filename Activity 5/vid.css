@@ -1,0 +1,54 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /*makes the logo and nav in opposite sides*/
+    align-items: center;
+    background-color: #fbeeff; 
+    padding: 10px 20px;
+}
+
+#retro {
+    color: #000000;
+    font-family: "Cutive", serif;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 35px;
+    letter-spacing: 5px; /*gives space between letter*/
+}
+
+.link {
+    list-style: none;
+    display: flex;
+    margin-left: 20px;
+    padding: 0;
+    margin: 0;
+    gap: 50px; /*gives space between words*/
+}
+
+a {
+    text-decoration: none; /* removes underline */
+    color: #811515;
+    font-size: 25px;
+    font-family: "Cutive", serif;
+}
+
+body {
+    background-color: #383838;
+    margin: 0;
+}
+
+.vid {
+    display: flex;
+    justify-content: center; /*centers vid horizontally*/
+    padding: 145px; /*centers vid vertically*/
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
