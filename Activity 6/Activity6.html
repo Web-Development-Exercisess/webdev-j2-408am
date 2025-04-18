@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="petrol.css" type="text/css" />
+    <title>Petrol Count</title>
+</head>
+<body>
+    <header>
+        <h1 id="name">MY PETROL COUNT</h1>
+        <nav>
+            <a href="#">Menu</a>
+        </nav>
+    </header>
+    <div class="int">
+        <h1 id="bod">Petrol Calculator UAE</h1>
+        <p>Designed for users to calculate their petrol cost within
+            <br>UAE based on the current cost of petrol per liter from January 2025.
+        </p>
+    </div>
+    <div class="container">
+        <label for="cost_per_li">The cost of petrol per liter</label>
+        <input type="number" id="cost_per_li" value="1.72" step="0.01">
+
+
+        <!-- Input for number of kilometers -->
+        <label for="purchased">Enter the number of liters purchased:</label>
+        <input type="number" id="purchased" value="0">
+
+
+        <!-- Button to calculate purchase -->
+        <button onclick="calculate_Purchase()">Calculate Purchase</button>
+
+
+        <!-- Display the total -->
+        <p id="cost">Your Total Price: AED 0.00</p>
+    </div>
+    <script src="petrol.js"></script>
+</body>
+</html>
+
+
+
